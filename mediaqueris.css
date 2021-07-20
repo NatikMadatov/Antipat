@@ -1,0 +1,19 @@
+
+
+
+  /*___________  home_____________*/
+
+@media (min-width: 768px) { 
+.bg{
+	width: 100%;
+}
+
+.card{
+	margin-top: 80px;
+}
+
+.rr{
+	margin-top: 90px;
+}
+
+}

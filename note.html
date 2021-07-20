@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+   <style type="text/css">
+      .div {
+         width: 400px;
+         height: 400px;
+         border: 2px solid black;
+         text-align: center;
+      }
+   </style>
+
+   <title></title>
+</head>
+
+<body>
+
+
+   <div class="div">
+
+      <h1 id="movie">x</h1>
+
+   </div>
+
+
+
+   <script type="text/javascript">
+      var movie = document.getElementById("movie");
+      var c = 1;
+      h = "+";
+
+
+
+      function one() {
+         c++;
+         movie.innerHTML = c + h;
+         if (c == 56) {
+            clearInterval(saybir);
+         }
+
+      }
+
+
+      var saybir = setInterval(function () {
+         one();
+
+
+
+      }, 100);
+   </script>
+
+
+
+
+</body>
+
+</html>
